@@ -25,7 +25,7 @@ function handleGeoSuccess(position){
         latitude, longitude
     };
 saveCoords(coordsObj);
-getweather(latitude, longitude);
+getWeather(latitude, longitude);
 }
 function handleGeoError(){
     console.log("cant access geo location");
