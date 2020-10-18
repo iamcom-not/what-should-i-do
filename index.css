@@ -39,21 +39,26 @@ body {
 
 /*  */
 .js-clock {
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 600;
 }
-input,
-input::placeholder {
+
+.js-userForm input,
+.js-toDoForm input {
   font-family: inherit;
   width: 100%;
   border: 0;
-  border-bottom: 3px solid white;
   color: inherit;
   outline: 0;
   font-size: 45px;
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
+  border-bottom: 3px solid white;
+}
+.js-userForm input::placeholder,
+.js-toDoForm input::placeholder {
+  color: inherit;
 }
 .js-greeting {
   font-size: 50px;
@@ -72,4 +77,36 @@ button {
 }
 .js-weather {
   font-size: 25px;
+}
+
+/*  */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*  */
+.js-searchForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.js-searchForm a {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.js-searchForm input {
+  font-family: inherit;
+  width: 100%;
+  color: inherit;
+  font-size: 20px;
+  padding: 7px;
+  background: transparent;
+  transition: border-color 0.2s;
+  border: 1.5px solid white;
+  border-radius: 50px;
+  text-align: center;
+}
+.js-searchForm input::placeholder {
+  color: white;
 }
