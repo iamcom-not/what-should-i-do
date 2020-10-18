@@ -102,17 +102,17 @@ a {
 }
 
 /*  */
-.js-searchForm {
+.searchForm {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
-.js-searchForm a {
+.searchForm a {
   font-size: 20px;
   margin-right: 10px;
 }
-.js-searchForm input {
+.searchForm input {
   font-family: inherit;
   width: 100%;
   color: inherit;
@@ -124,6 +124,6 @@ a {
   border-radius: 50px;
   text-align: center;
 }
-.js-searchForm input::placeholder {
+.searchForm input::placeholder {
   color: white;
 }
