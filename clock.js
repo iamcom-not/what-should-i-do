@@ -1,5 +1,5 @@
 const clockBox = document.querySelector(".js-clock"),
-  currentTime = clockBox.querySelector("h1");
+  currentTime = clockBox.querySelector("span");
 
 function getTime() {
   const date = new Date();
